@@ -24,7 +24,7 @@ body #qr_card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 8%;
 }
-body #qr_card .qr_image {
+body #qr_card .qr_image img {
   width: 100%;
   height: 100%;
   border-radius: 5%;
