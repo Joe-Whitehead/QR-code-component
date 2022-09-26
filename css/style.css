@@ -17,13 +17,14 @@ Author: Joe Whitehead */
 }
 body {
   background-color: hsl(212, 45%, 89%);
+  overflow: hidden;
+  height: 100%;
 }
 body .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
 }
 body .container #qr_card {
   display: flex;

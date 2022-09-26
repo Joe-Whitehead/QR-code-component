@@ -18,14 +18,17 @@ Author: Joe Whitehead */
 
 body {
     background-color: @LightGreyBlue;
+    overflow: hidden;
+    height: 100%;
+
 
     .container {
         display: flex;
 
         align-items: center;
         justify-content: center;
-        max-height: 100vh;
-        overflow: hidden;
+        min-height: 100vh;
+
 
         #qr_card {
             display: flex;
