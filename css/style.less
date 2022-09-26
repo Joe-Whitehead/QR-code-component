@@ -22,6 +22,8 @@ body {
     .container {
         display: flex;
         align-items: center;
+        justify-content: center;
+        min-height: 100vh;
 
         #qr_card {
             display: flex;
@@ -31,7 +33,7 @@ body {
             max-width: 33rem;
             min-height: 550px;
             background-color: @White;
-            border-radius: 8%;
+            border-radius: 1rem;
 
             .qr_image {
                 display: flex;
@@ -39,7 +41,8 @@ body {
                 img {
                     width: 100%;
                     max-width: 30rem;
-                    border-radius: 5%;
+                    border-radius: 1rem;
+                    margin-top: 1.5rem;
                 }
             }
 
@@ -68,3 +71,6 @@ body {
         }
     }
 }
+html {
+    font-size: 10px;
+  }
