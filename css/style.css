@@ -22,7 +22,8 @@ body .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
 }
 body .container #qr_card {
   display: flex;
@@ -30,9 +31,10 @@ body .container #qr_card {
   align-items: center;
   width: 100%;
   max-width: 31rem;
-  min-height: 550px;
+  min-height: 500px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 1rem;
+  padding: 0px 10px;
 }
 body .container #qr_card .qr_image {
   display: flex;
@@ -56,6 +58,7 @@ body .container #qr_card .text .desc_txt {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
   font-size: 1.5rem;
+  padding: 0px 15px;
 }
 body .container .attribution {
   display: flex;

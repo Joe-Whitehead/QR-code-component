@@ -21,9 +21,11 @@ body {
 
     .container {
         display: flex;
+
         align-items: center;
         justify-content: center;
-        min-height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
 
         #qr_card {
             display: flex;
@@ -31,9 +33,10 @@ body {
             align-items: center;
             width: 100%;
             max-width: 31rem;
-            min-height: 550px;
+            min-height: 500px;
             background-color: @White;
             border-radius: 1rem;
+            padding: 0px 10px;
 
             .qr_image {
                 display: flex;
@@ -61,12 +64,13 @@ body {
                     color: @Grayishblue;
                     font-weight: 400;
                     font-size: 1.5rem;
+                    padding: 0px 15px;
                 }
             }
         }
 
         .attribution {
-            display:flex;
+            display: flex;
             font-size: 11px;
             text-align: center;
 
@@ -76,6 +80,7 @@ body {
         }
     }
 }
+
 html {
     font-size: 10px;
-  }
+}
