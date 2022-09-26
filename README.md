@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-Fl9xbLfFhy](https://www.frontendmentor.io/solutions/qr-code-component-Fl9xbLfFhy)
 - Live Site URL: [https://joe-whitehead.github.io/QR-code-component/](https://joe-whitehead.github.io/QR-code-component/)
 
 ## My process
@@ -35,4 +35,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 
 ## Author
-- Frontend Mentor - [@Joe-Whitehead](https://www.frontendmentor.io/profile/Joe-Whitehead)
+- Frontend Mentor - [@Joe Whitehead](https://www.frontendmentor.io/profile/Joe-Whitehead)
