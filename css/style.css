@@ -49,15 +49,16 @@ body .container #qr_card .text {
 }
 body .container #qr_card .text .heading_txt {
   color: hsl(218, 44%, 22%);
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2.5rem;
 }
 body .container #qr_card .text .desc_txt {
   color: hsl(212, 45%, 89%);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 body .container .attribution {
+  display: flex;
   font-size: 11px;
   text-align: center;
 }
