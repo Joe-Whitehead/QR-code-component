@@ -19,41 +19,52 @@ Author: Joe Whitehead */
 body {
     background-color: @LightGreyBlue;
 
-    #qr_card {
-        width: 10%;
-        height: fit-content;
-        background-color: @White;
-        border-radius: 8%;
+    .container {
+        display: flex;
+        align-items: center;
 
-        .qr_image {
-            img {
-                width: 100%;
-                height: 100%;
-                border-radius: 5%;
+        #qr_card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 33rem;
+            min-height: 550px;
+            background-color: @White;
+            border-radius: 8%;
+
+            .qr_image {
+                display: flex;
+
+                img {
+                    width: 100%;
+                    max-width: 30rem;
+                    border-radius: 5%;
+                }
+            }
+
+            .text {
+                font-family: 'Outfit';
+
+                .heading_txt {
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+
+                .desc_txt {
+                    font-weight: 700;
+                    font-size: 10px;
+                }
             }
         }
 
-        p {
-            font-family: 'Outfit';
+        .attribution {
+            font-size: 11px;
+            text-align: center;
 
-            .desc_txt {
-                font-weight: 400;
-                font-size: 15px;
+            .a {
+                color: hsl(228, 45%, 44%);
             }
-
-            .action_txt {
-                font-weight: 700;
-                font-size: 10px;
-            }
-        }
-    }
-
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-
-        .a {
-            color: hsl(228, 45%, 44%);
         }
     }
 }
